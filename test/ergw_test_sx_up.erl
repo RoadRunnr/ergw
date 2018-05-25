@@ -264,6 +264,8 @@ handle_message(#pfcp{type = association_setup_request,
 	    time = ergw_sx_node:seconds_to_sntp_time(RecoveryTS)},
 	 user_plane_ip_resource_information([<<"cp">>], State0),
 	 user_plane_ip_resource_information([<<"irx">>], State0),
+	 user_plane_ip_resource_information([<<"irx1">>], State0),
+	 user_plane_ip_resource_information([<<"irx2">>], State0),
 	 user_plane_ip_resource_information([<<"proxy-irx">>], State0),
 	 user_plane_ip_resource_information([<<"remote-irx">>], State0)
 	],
